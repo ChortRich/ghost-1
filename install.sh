@@ -123,7 +123,6 @@ cp bin/ghost /usr/local/bin
 chmod +x /usr/local/bin/ghost
 cp bin/ghost /data/data/com.termux/files/usr/bin
 chmod +x /data/data/com.termux/files/usr/bin/ghost
-chmod +x install.sh
 } &> /dev/null
 
 sleep 1
