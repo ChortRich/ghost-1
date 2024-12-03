@@ -39,7 +39,7 @@ if [[ -d ~/ghost ]]; then
         cp etc/.disabled/transfer.py etc
         rm -rf etc/.disabled
     } &> /dev/null
-    chmod +x ghost
+    chmod +x install.sh ghost
     ./ghost
     {
         if [[ -f ~/ghost/.updated ]]; then
